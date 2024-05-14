@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.matrix div {
+  padding: 5px;
+  height: 25px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
